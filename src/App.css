@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li {
+  float: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+li a {
+  display: block;
   color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+li a:hover:not(.active) {
+  background-color: #111;
+}
+#div1{
+      margin-top: 150px;
+      height: 350px;
+    text-align: center;
+    background-color:#b8b894;
+    
+}
+#heading1{
+ font-size: 70px;
+ text-align: center;
+}
+#p1{
+    margin-left: 170px;
+    margin-right: 170px;
+    font-size: 20px;
+}
+#maindiv{
+    background-color:#b8b894;
+        font-family: Comic Sans MS;
+
+}
+#doc{
+    margin-top: 150px;
+    text-align: center;
+    height: 1000px;
+    background-color: #66a3ff;
+    
+}
+#doch1{
+    font-size: 50px;
+    
+}
+#p2{
+    margin-left: 170px;
+    margin-right: 170px;
+    font-size: 20px;
+}
+button{
+font-size: 20px;
+padding: 15px 32px;
+  text-align: center;
+background-color: #0000e6;
+color: white;
+border: none;
+}
+img {
+  border-radius: 8px;
+}
+#lec{
+    height: 850px;
+    text-align: center;
+}
+#p3,#p4{
+    margin-left: 170px;
+    margin-right: 170px;
+    font-size: 20px;
+}
+#div4{
+    background-color: #66a3ff;
+    height: 400px;
+    text-align: center;
+    
+}
+#head{
+    padding-top: 150px;
+}
+#container{
+    display: inline-grid;
+     grid-template-columns: auto auto auto;
+     padding: 10px;
+}
+#item{
+    padding: 20px;
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#p5{
+    text-align: left;
+    font-size: 20px;
+}
+#p6,#p7{
+    text-align: left;
+    font-size: 20px;
+}
+table{
+    height: 200px;
+    width:100%;
+    text-align: center;
+    background-color: #66a3ff;
+}
+th{
+    padding: 8px;
+    color: white;
 }

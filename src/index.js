@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Input from './component/input.js';
+
 ReactDOM.render(
 	<BrowserRouter>
         <App/>
